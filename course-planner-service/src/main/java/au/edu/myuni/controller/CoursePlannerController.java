@@ -7,8 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class CoursePlannerController {
 
 	@RequestMapping("/courses")
-    public String getCourses() {
-        return "Getting all the courses....";
-
-    }
+	public String getCourses() {
+		return "Getting all the courses....";
+	}
 }
